@@ -14,7 +14,6 @@ Start JSON Server
 
 In the project directory, you can run:
 
-### `npx json-server -p 3500 -w data/db.json`
 ### `npm start`
 
 Runs the app in the development mode.\
