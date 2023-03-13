@@ -1,0 +1,58 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Hello World",
+      "datetime": "December 27, 2022 9:13:20 PM",
+      "body": "This my first axios \"Hello World\" post"
+    },
+    {
+      "id": 2,
+      "title": "React",
+      "datetime": "December 23, 2022 12:14:16 AM",
+      "body": "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies."
+    },
+    {
+      "id": 3,
+      "title": "Node.js",
+      "datetime": "December 23, 2022 12:14:52 AM",
+      "body": "Node.js is an open-source server environment. Node.js is cross-platform and runs on Windows, Linux, Unix, and macOS. Node.js is a back-end JavaScript runtime environment. Node.js runs on the V8 JavaScript Engine and executes JavaScript code outside a web browser."
+    },
+    {
+      "id": 4,
+      "title": "Redux",
+      "datetime": "December 23, 2022 12:17:41 AM",
+      "body": "Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces."
+    },
+    {
+      "id": 5,
+      "title": "Is Axios a REST API?",
+      "datetime": "December 23, 2022 12:16:05 AM",
+      "body": "Axios is an HTTP client library based on promises. It makes sending asynchronous HTTP requests to REST endpoints easier and helps you perform CRUD operations. This REST endpoint/API could be an external API like the Google API, GitHub API, and so on – or it could be your own backend Node."
+    },
+    {
+      "id": 6,
+      "title": "JavaScript",
+      "datetime": "December 27, 2022 8:33:27 PM",
+      "body": "JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries."
+    },
+    {
+      "id": 7,
+      "title": "MERN Stack",
+      "datetime": "January 14, 2023 8:44:55 PM",
+      "body": "MERN Stack is a Javascript Stack that is used for easier and faster deployment of full-stack web applications. MERN Stack comprises of 4 technologies namely: MongoDB, Express, React and Node.js. It is designed to make the development process smoother and easier.\n\nEach of these 4 powerful technologies provides an end-to-end framework for the developers to work in and each of these technologies play a big part in the development of web applications."
+    },
+    {
+      "id": 8,
+      "title": "Redux Thunk",
+      "datetime": "March 13, 2023 4:17:55 PM",
+      "body": "Redux Thunk is a middleware for Redux. It allows writing functions with logic inside that can interact with a Redux store's dispatch and getState methods."
+    },
+    {
+      "id": 9,
+      "title": "Redux Saga",
+      "datetime": "March 13, 2023 4:19:16 PM",
+      "body": "Redux-saga is a library that aims to make application side effects (i.e. asynchronous things like data fetching and impure things like accessing the browser cache) easier to manage, more efficient to execute, easy to test, and better at handling failures.\n\nThe mental model is that a saga is like a separate thread in your application that's solely responsible for side effects. redux-saga is a redux middleware, which means this thread can be started, paused and cancelled from the main application with normal redux actions, it has access to the full redux application state and it can dispatch redux actions as well.\n\nIt uses an ES6 feature called Generators to make those asynchronous flows easy to read, write and test. (if you're not familiar with them here are some introductory links) By doing so, these asynchronous flows look like your standard synchronous JavaScript code. (kind of like async/await, but generators have a few more awesome features we need)\n\nYou might've used redux-thunk before to handle your data fetching. Contrary to redux thunk, you don't end up in callback hell, you can test your asynchronous flows easily and your actions stay pure."
+    }
+  ]
+}
