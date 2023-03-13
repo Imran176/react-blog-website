@@ -12,7 +12,12 @@ Start JSON Server
 
 ### `json-server -p 3500 -w data/db.json`
 
-In the project directory, you can run:
+Runs the json-server in the development mode on port 3500.\
+Open [http://localhost:3500/posts](http://localhost:3500) to view it in your browser.
+
+
+
+Now In the project directory, you can run:
 
 ### `npm start`
 
